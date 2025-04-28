@@ -59,7 +59,7 @@ export default function App() {
               />
               <h4 className="text-xl font-semibold mb-2">Portfolio Website</h4>
               <p className="mb-3">A modern personal website built with React and Tailwind CSS.</p>
-              <a href="https://github.com/yourusername/portfolio" target="_blank" rel="noopener noreferrer" className="text-blue-600 font-semibold hover:underline">
+              <a href="https://github.com/Sorayahakimi/react-portfolio" target="_blank" rel="noopener noreferrer" className="text-blue-600 font-semibold hover:underline">
                 View on GitHub
               </a>
             </div>
@@ -83,7 +83,10 @@ export default function App() {
         <p>© {new Date().getFullYear()} Thuraya. All rights reserved.</p>
         <div className="mt-2 flex justify-center space-x-4">
           <a href="mailto:sorayahakimi121@gmail.com" aria-label="Email Thuraya"><Mail size={18} /></a>
-          <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><Github size={18} /></a>
+          <a href="https://github.com/Sorayahakimi" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+  <Github size={18} />
+</a>
+
           <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><Linkedin size={18} /></a>
         </div>
       </footer>
